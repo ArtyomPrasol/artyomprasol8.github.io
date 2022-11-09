@@ -30,7 +30,7 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(0); 
     background: #ff9933;
-    width: 500px;
+    width: 100;
     padding: 25px;
     transition: 0.5s all;
 }
@@ -159,4 +159,17 @@
 .custom-checkbox input:checked ~ .checkbox {
     background: rgb(0, 255, 64);
     border: 2px solid rgb(123, 255, 174);
+}
+
+@media only screen and (min-width: 800px) {
+    .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); 
+    background: #ff9933;
+    width: 450px;
+    padding: 25px;
+    transition: 0.5s all;
+}
 }
